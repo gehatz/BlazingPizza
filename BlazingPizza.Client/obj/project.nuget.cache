@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VfoP4t2wG9fwSN0sjYn4yr3Itnm31ZfwWY6KsBFxOFdD81DwoeqxftAwwSSK8mt5NNSDSKz9ASfsaKsWCvaA/g==",
+  "dgSpecHash": "0pu5m5p9xp4a977IR3Mi2Pdun4JHgKXob/6ucvo3sLpH2IvRcM0aWUkSOJ0/XqKmnpp4Qwx9kqTXPz2fuv90Vw==",
   "success": true,
-  "projectFilePath": "c:\\Users\\George\\Desktop\\Workspace\\vsl2021blaze-main\\src\\BlazingPizza\\BlazingPizza.Client\\BlazingPizza.Client.csproj",
+  "projectFilePath": "C:\\Users\\George\\Desktop\\Workspace\\vsl2021blaze-main\\src\\BlazingPizza\\BlazingPizza.Client\\BlazingPizza.Client.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\George\\.nuget\\packages\\microsoft.aspnetcore.authorization\\5.0.0\\microsoft.aspnetcore.authorization.5.0.0.nupkg.sha512",
     "C:\\Users\\George\\.nuget\\packages\\microsoft.aspnetcore.components\\5.0.0\\microsoft.aspnetcore.components.5.0.0.nupkg.sha512",

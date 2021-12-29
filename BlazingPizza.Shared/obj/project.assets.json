@@ -450,8 +450,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "c:\\Users\\George\\Desktop\\Workspace\\vsl2021blaze-main\\src\\BlazingPizza\\BlazingPizza.ComponentsLibrary\\BlazingPizza.ComponentsLibrary.csproj": {
-              "projectPath": "c:\\Users\\George\\Desktop\\Workspace\\vsl2021blaze-main\\src\\BlazingPizza\\BlazingPizza.ComponentsLibrary\\BlazingPizza.ComponentsLibrary.csproj"
+            "C:\\Users\\George\\Desktop\\Workspace\\vsl2021blaze-main\\src\\BlazingPizza\\BlazingPizza.ComponentsLibrary\\BlazingPizza.ComponentsLibrary.csproj": {
+              "projectPath": "C:\\Users\\George\\Desktop\\Workspace\\vsl2021blaze-main\\src\\BlazingPizza\\BlazingPizza.ComponentsLibrary\\BlazingPizza.ComponentsLibrary.csproj"
             }
           }
         }

@@ -1320,11 +1320,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\George\\Desktop\\Workspace\\vsl2021blaze-main\\src\\BlazingPizza\\BlazingPizza.Client\\BlazingPizza.Client.csproj",
+      "projectUniqueName": "C:\\Users\\George\\Desktop\\Workspace\\vsl2021blaze-main\\src\\BlazingPizza\\BlazingPizza.Client\\BlazingPizza.Client.csproj",
       "projectName": "BlazingPizza.Client",
-      "projectPath": "c:\\Users\\George\\Desktop\\Workspace\\vsl2021blaze-main\\src\\BlazingPizza\\BlazingPizza.Client\\BlazingPizza.Client.csproj",
+      "projectPath": "C:\\Users\\George\\Desktop\\Workspace\\vsl2021blaze-main\\src\\BlazingPizza\\BlazingPizza.Client\\BlazingPizza.Client.csproj",
       "packagesPath": "C:\\Users\\George\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\George\\Desktop\\Workspace\\vsl2021blaze-main\\src\\BlazingPizza\\BlazingPizza.Client\\obj\\",
+      "outputPath": "C:\\Users\\George\\Desktop\\Workspace\\vsl2021blaze-main\\src\\BlazingPizza\\BlazingPizza.Client\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
@@ -1345,8 +1345,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "c:\\Users\\George\\Desktop\\Workspace\\vsl2021blaze-main\\src\\BlazingPizza\\BlazingPizza.ComponentsLibrary\\BlazingPizza.ComponentsLibrary.csproj": {
-              "projectPath": "c:\\Users\\George\\Desktop\\Workspace\\vsl2021blaze-main\\src\\BlazingPizza\\BlazingPizza.ComponentsLibrary\\BlazingPizza.ComponentsLibrary.csproj"
+            "C:\\Users\\George\\Desktop\\Workspace\\vsl2021blaze-main\\src\\BlazingPizza\\BlazingPizza.ComponentsLibrary\\BlazingPizza.ComponentsLibrary.csproj": {
+              "projectPath": "C:\\Users\\George\\Desktop\\Workspace\\vsl2021blaze-main\\src\\BlazingPizza\\BlazingPizza.ComponentsLibrary\\BlazingPizza.ComponentsLibrary.csproj"
             },
             "C:\\Users\\George\\Desktop\\Workspace\\vsl2021blaze-main\\src\\BlazingPizza\\BlazingPizza.Shared\\BlazingPizza.Shared.csproj": {
               "projectPath": "C:\\Users\\George\\Desktop\\Workspace\\vsl2021blaze-main\\src\\BlazingPizza\\BlazingPizza.Shared\\BlazingPizza.Shared.csproj"

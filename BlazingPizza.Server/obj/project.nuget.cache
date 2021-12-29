@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HSacUu2YEFGoPU18RX+/CoS0TLfk09UrNvxCRwJqp54OiDOn/2Mb3/KOzKQRkIl8MeAmfnNYlDeLtVaubMOYVw==",
+  "dgSpecHash": "jTx+HLA0t9elQEPc36YSui7Ay4nrXR8HgervAIWyYln6SGFfuGButB4yxFai1wWnIR7pJEsMlIwbaqBQsKitgg==",
   "success": true,
-  "projectFilePath": "c:\\Users\\George\\Desktop\\Workspace\\vsl2021blaze-main\\src\\BlazingPizza\\BlazingPizza.Server\\BlazingPizza.Server.csproj",
+  "projectFilePath": "C:\\Users\\George\\Desktop\\Workspace\\vsl2021blaze-main\\src\\BlazingPizza\\BlazingPizza.Server\\BlazingPizza.Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\George\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",
     "C:\\Users\\George\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
