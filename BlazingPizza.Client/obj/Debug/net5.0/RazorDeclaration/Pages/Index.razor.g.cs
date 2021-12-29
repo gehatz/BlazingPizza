@@ -115,52 +115,18 @@ using BlazingPizza.ComponentsLibrary;
 #line 57 "C:\Users\George\Desktop\Workspace\vsl2021blaze-main\src\BlazingPizza\BlazingPizza.Client\Pages\Index.razor"
        
     List<PizzaSpecial> specials;
-    Pizza configuringPizza;
-    bool showingConfigureDialog;
-    Order order = new Order();
-
-    void ShowConfigurePizzaDialog(PizzaSpecial special)
-    {
-        configuringPizza = new Pizza()
-        {
-            Special = special,
-            SpecialId = special.Id,
-            Size = Pizza.DefaultSize,
-            Toppings = new List<PizzaTopping>(),
-        };
-
-        showingConfigureDialog = true;
-    }
+    Order order => OrderState.Order;
 
     protected override async Task OnInitializedAsync()
     {
         specials = await HttpClient.GetFromJsonAsync<List<PizzaSpecial>>("specials");
     }
 
-    void CancelConfigurePizzaDialog()
-    {
-        configuringPizza = null;
-        showingConfigureDialog = false;
-    }
-
-    void ConfirmConfigurePizzaDialog()
-    {
-        order.Pizzas.Add(configuringPizza);
-        configuringPizza = null;
-
-        showingConfigureDialog = false;
-    }
-
-    void RemoveConfiguredPizza(Pizza pizza)
-    {
-        order.Pizzas.Remove(pizza);
-    }
-
     async Task PlaceOrder()
     {
-        var response = await HttpClient.PostAsJsonAsync("orders", order);
+        var response = await HttpClient.PostAsJsonAsync("orders", OrderState.Order);
         var newOrderId = await response.Content.ReadFromJsonAsync<int>();
-        order = new Order();
+        OrderState.ResetOrder();
         NavigationManager.NavigateTo($"myorders/{newOrderId}");
     }
 
@@ -168,6 +134,7 @@ using BlazingPizza.ComponentsLibrary;
 #line hidden
 #nullable disable
         [global::Microsoft.AspNetCore.Components.InjectAttribute] private NavigationManager NavigationManager { get; set; }
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private OrderState OrderState { get; set; }
         [global::Microsoft.AspNetCore.Components.InjectAttribute] private HttpClient HttpClient { get; set; }
     }
 }

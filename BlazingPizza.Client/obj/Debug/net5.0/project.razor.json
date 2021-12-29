@@ -201,6 +201,59 @@
         }
       },
       {
+        "HashCode": 1901138147,
+        "Kind": "Components.Component",
+        "Name": "BlazingPizza.Client.Shared.OrderReview",
+        "AssemblyName": "BlazingPizza.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "OrderReview"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Order",
+            "TypeName": "BlazingPizza.Order",
+            "Metadata": {
+              "Common.PropertyName": "Order"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazingPizza.Client.Shared.OrderReview"
+        }
+      },
+      {
+        "HashCode": 857199145,
+        "Kind": "Components.Component",
+        "Name": "BlazingPizza.Client.Shared.OrderReview",
+        "AssemblyName": "BlazingPizza.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazingPizza.Client.Shared.OrderReview"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Order",
+            "TypeName": "BlazingPizza.Order",
+            "Metadata": {
+              "Common.PropertyName": "Order"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazingPizza.Client.Shared.OrderReview",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": -1563355681,
         "Kind": "Components.Component",
         "Name": "BlazingPizza.Client.Shared.MainLayout",
@@ -297,92 +350,6 @@
         }
       },
       {
-        "HashCode": 1901138147,
-        "Kind": "Components.Component",
-        "Name": "BlazingPizza.Client.Shared.OrderReview",
-        "AssemblyName": "BlazingPizza.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "OrderReview"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Order",
-            "TypeName": "BlazingPizza.Order",
-            "Metadata": {
-              "Common.PropertyName": "Order"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazingPizza.Client.Shared.OrderReview"
-        }
-      },
-      {
-        "HashCode": 857199145,
-        "Kind": "Components.Component",
-        "Name": "BlazingPizza.Client.Shared.OrderReview",
-        "AssemblyName": "BlazingPizza.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "BlazingPizza.Client.Shared.OrderReview"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Order",
-            "TypeName": "BlazingPizza.Order",
-            "Metadata": {
-              "Common.PropertyName": "Order"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazingPizza.Client.Shared.OrderReview",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -310865205,
-        "Kind": "Components.Component",
-        "Name": "BlazingPizza.Client.Pages.MyOrders",
-        "AssemblyName": "BlazingPizza.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "MyOrders"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazingPizza.Client.Pages.MyOrders"
-        }
-      },
-      {
-        "HashCode": -221834360,
-        "Kind": "Components.Component",
-        "Name": "BlazingPizza.Client.Pages.MyOrders",
-        "AssemblyName": "BlazingPizza.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "BlazingPizza.Client.Pages.MyOrders"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazingPizza.Client.Pages.MyOrders",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": 1436814363,
         "Kind": "Components.Component",
         "Name": "BlazingPizza.Client.Pages.OrderDetails",
@@ -432,6 +399,39 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "BlazingPizza.Client.Pages.OrderDetails",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -310865205,
+        "Kind": "Components.Component",
+        "Name": "BlazingPizza.Client.Pages.MyOrders",
+        "AssemblyName": "BlazingPizza.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "MyOrders"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazingPizza.Client.Pages.MyOrders"
+        }
+      },
+      {
+        "HashCode": -221834360,
+        "Kind": "Components.Component",
+        "Name": "BlazingPizza.Client.Pages.MyOrders",
+        "AssemblyName": "BlazingPizza.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazingPizza.Client.Pages.MyOrders"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazingPizza.Client.Pages.MyOrders",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
