@@ -103,8 +103,8 @@ using BlazingPizza.ComponentsLibrary;
 #line default
 #line hidden
 #nullable disable
-    [Microsoft.AspNetCore.Components.RouteAttribute("/")]
-    public partial class Index : Microsoft.AspNetCore.Components.ComponentBase
+    [Microsoft.AspNetCore.Components.RouteAttribute("/myorders")]
+    public partial class MyOrders : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
@@ -112,62 +112,18 @@ using BlazingPizza.ComponentsLibrary;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 57 "C:\Users\George\Desktop\Workspace\vsl2021blaze-main\src\BlazingPizza\BlazingPizza.Client\Pages\Index.razor"
+#line 41 "C:\Users\George\Desktop\Workspace\vsl2021blaze-main\src\BlazingPizza\BlazingPizza.Client\Pages\MyOrders.razor"
        
-    List<PizzaSpecial> specials;
-    Pizza configuringPizza;
-    bool showingConfigureDialog;
-    Order order = new Order();
+    IEnumerable<OrderWithStatus> ordersWithStatus;
 
-    void ShowConfigurePizzaDialog(PizzaSpecial special)
+    protected override async Task OnParametersSetAsync()
     {
-        configuringPizza = new Pizza()
-        {
-            Special = special,
-            SpecialId = special.Id,
-            Size = Pizza.DefaultSize,
-            Toppings = new List<PizzaTopping>(),
-        };
-
-        showingConfigureDialog = true;
-    }
-
-    protected override async Task OnInitializedAsync()
-    {
-        specials = await HttpClient.GetFromJsonAsync<List<PizzaSpecial>>("specials");
-    }
-
-    void CancelConfigurePizzaDialog()
-    {
-        configuringPizza = null;
-        showingConfigureDialog = false;
-    }
-
-    void ConfirmConfigurePizzaDialog()
-    {
-        order.Pizzas.Add(configuringPizza);
-        configuringPizza = null;
-
-        showingConfigureDialog = false;
-    }
-
-    void RemoveConfiguredPizza(Pizza pizza)
-    {
-        order.Pizzas.Remove(pizza);
-    }
-
-    async Task PlaceOrder()
-    {
-        var response = await HttpClient.PostAsJsonAsync("orders", order);
-        var newOrderId = await response.Content.ReadFromJsonAsync<int>();
-        order = new Order();
-        NavigationManager.NavigateTo($"myorders/{newOrderId}");
+        ordersWithStatus = await HttpClient.GetFromJsonAsync<List<OrderWithStatus>>("orders");
     }
 
 #line default
 #line hidden
 #nullable disable
-        [global::Microsoft.AspNetCore.Components.InjectAttribute] private NavigationManager NavigationManager { get; set; }
         [global::Microsoft.AspNetCore.Components.InjectAttribute] private HttpClient HttpClient { get; set; }
     }
 }
