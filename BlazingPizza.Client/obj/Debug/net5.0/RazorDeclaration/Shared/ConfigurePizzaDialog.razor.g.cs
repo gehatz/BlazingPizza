@@ -4,7 +4,7 @@
 #pragma warning disable 0649
 #pragma warning disable 0169
 
-namespace BlazingPizza.Client
+namespace BlazingPizza.Client.Shared
 {
     #line hidden
     using System;
@@ -103,13 +103,52 @@ using BlazingPizza.ComponentsLibrary;
 #line default
 #line hidden
 #nullable disable
-    public partial class _Imports : System.Object
+    public partial class ConfigurePizzaDialog : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
-        protected void Execute()
+        protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
         {
         }
         #pragma warning restore 1998
+#nullable restore
+#line 61 "c:\Users\George\Desktop\Workspace\vsl2021blaze-main\src\BlazingPizza\BlazingPizza.Client\Shared\ConfigurePizzaDialog.razor"
+       
+    List<Topping> toppings;
+
+    [Parameter] public Pizza Pizza { get; set; }
+    [Parameter] public EventCallback OnCancel { get; set; }
+    [Parameter] public EventCallback OnConfirm { get; set; }
+
+    protected async override Task OnInitializedAsync()
+    {
+        toppings = await HttpClient.GetFromJsonAsync<List<Topping>>("toppings");
+    }
+
+    void ToppingSelected(ChangeEventArgs e)
+    {
+        if (int.TryParse((string)e.Value, out var index) && index >= 0)
+        {
+            AddTopping(toppings[index]);
+        }
+    }
+
+    void AddTopping(Topping topping)
+    {
+        if (Pizza.Toppings.Find(pt => pt.Topping == topping) == null)
+        {
+            Pizza.Toppings.Add(new PizzaTopping() { Topping = topping });
+        }
+    }
+
+    void RemoveTopping(Topping topping)
+    {
+        Pizza.Toppings.RemoveAll(pt => pt.Topping == topping);
+    }
+
+#line default
+#line hidden
+#nullable disable
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private HttpClient HttpClient { get; set; }
     }
 }
 #pragma warning restore 1591

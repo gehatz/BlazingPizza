@@ -4,7 +4,7 @@
 #pragma warning disable 0649
 #pragma warning disable 0169
 
-namespace BlazingPizza.Client
+namespace BlazingPizza.Client.Shared
 {
     #line hidden
     using System;
@@ -103,13 +103,22 @@ using BlazingPizza.ComponentsLibrary;
 #line default
 #line hidden
 #nullable disable
-    public partial class _Imports : System.Object
+    public partial class ConfiguredPizzaItem : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
-        protected void Execute()
+        protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
         {
         }
         #pragma warning restore 1998
+#nullable restore
+#line 15 "c:\Users\George\Desktop\Workspace\vsl2021blaze-main\src\BlazingPizza\BlazingPizza.Client\Shared\ConfiguredPizzaItem.razor"
+       
+    [Parameter] public Pizza Pizza { get; set; }
+    [Parameter] public EventCallback OnRemoved { get; set; }
+
+#line default
+#line hidden
+#nullable disable
     }
 }
 #pragma warning restore 1591

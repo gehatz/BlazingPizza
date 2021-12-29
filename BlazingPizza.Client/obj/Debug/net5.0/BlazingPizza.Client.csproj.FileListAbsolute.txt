@@ -636,3 +636,7 @@ C:\Users\George\Desktop\Workspace\vsl2021blaze-main\src\BlazingPizza\BlazingPizz
 C:\Users\George\Desktop\Workspace\vsl2021blaze-main\src\BlazingPizza\BlazingPizza.Client\obj\Debug\net5.0\BlazingPizza.Client.dll
 C:\Users\George\Desktop\Workspace\vsl2021blaze-main\src\BlazingPizza\BlazingPizza.Client\obj\Debug\net5.0\ref\BlazingPizza.Client.dll
 C:\Users\George\Desktop\Workspace\vsl2021blaze-main\src\BlazingPizza\BlazingPizza.Client\obj\Debug\net5.0\BlazingPizza.Client.pdb
+C:\Users\George\Desktop\Workspace\vsl2021blaze-main\src\BlazingPizza\BlazingPizza.Client\obj\Debug\net5.0\RazorDeclaration\Shared\ConfigurePizzaDialog.razor.g.cs
+C:\Users\George\Desktop\Workspace\vsl2021blaze-main\src\BlazingPizza\BlazingPizza.Client\obj\Debug\net5.0\Razor\Shared\ConfigurePizzaDialog.razor.g.cs
+C:\Users\George\Desktop\Workspace\vsl2021blaze-main\src\BlazingPizza\BlazingPizza.Client\obj\Debug\net5.0\RazorDeclaration\Shared\ConfiguredPizzaItem.razor.g.cs
+C:\Users\George\Desktop\Workspace\vsl2021blaze-main\src\BlazingPizza\BlazingPizza.Client\obj\Debug\net5.0\Razor\Shared\ConfiguredPizzaItem.razor.g.cs

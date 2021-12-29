@@ -13,91 +13,91 @@ namespace BlazingPizza.Client.Pages
     using System.Threading.Tasks;
     using Microsoft.AspNetCore.Components;
 #nullable restore
-#line 1 "C:\Users\George\Desktop\Workspace\vsl2021blaze-main\src\BlazingPizza\BlazingPizza.Client\_Imports.razor"
+#line 1 "c:\Users\George\Desktop\Workspace\vsl2021blaze-main\src\BlazingPizza\BlazingPizza.Client\_Imports.razor"
 using System.Net.Http;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "C:\Users\George\Desktop\Workspace\vsl2021blaze-main\src\BlazingPizza\BlazingPizza.Client\_Imports.razor"
+#line 2 "c:\Users\George\Desktop\Workspace\vsl2021blaze-main\src\BlazingPizza\BlazingPizza.Client\_Imports.razor"
 using System.Net.Http.Headers;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "C:\Users\George\Desktop\Workspace\vsl2021blaze-main\src\BlazingPizza\BlazingPizza.Client\_Imports.razor"
+#line 3 "c:\Users\George\Desktop\Workspace\vsl2021blaze-main\src\BlazingPizza\BlazingPizza.Client\_Imports.razor"
 using System.Net.Http.Json;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 4 "C:\Users\George\Desktop\Workspace\vsl2021blaze-main\src\BlazingPizza\BlazingPizza.Client\_Imports.razor"
+#line 4 "c:\Users\George\Desktop\Workspace\vsl2021blaze-main\src\BlazingPizza\BlazingPizza.Client\_Imports.razor"
 using Microsoft.AspNetCore.Authorization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 5 "C:\Users\George\Desktop\Workspace\vsl2021blaze-main\src\BlazingPizza\BlazingPizza.Client\_Imports.razor"
+#line 5 "c:\Users\George\Desktop\Workspace\vsl2021blaze-main\src\BlazingPizza\BlazingPizza.Client\_Imports.razor"
 using Microsoft.AspNetCore.Components.Authorization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 6 "C:\Users\George\Desktop\Workspace\vsl2021blaze-main\src\BlazingPizza\BlazingPizza.Client\_Imports.razor"
+#line 6 "c:\Users\George\Desktop\Workspace\vsl2021blaze-main\src\BlazingPizza\BlazingPizza.Client\_Imports.razor"
 using Microsoft.AspNetCore.Components.Forms;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 7 "C:\Users\George\Desktop\Workspace\vsl2021blaze-main\src\BlazingPizza\BlazingPizza.Client\_Imports.razor"
+#line 7 "c:\Users\George\Desktop\Workspace\vsl2021blaze-main\src\BlazingPizza\BlazingPizza.Client\_Imports.razor"
 using Microsoft.AspNetCore.Components.Routing;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 8 "C:\Users\George\Desktop\Workspace\vsl2021blaze-main\src\BlazingPizza\BlazingPizza.Client\_Imports.razor"
+#line 8 "c:\Users\George\Desktop\Workspace\vsl2021blaze-main\src\BlazingPizza\BlazingPizza.Client\_Imports.razor"
 using Microsoft.AspNetCore.Components.Web;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 9 "C:\Users\George\Desktop\Workspace\vsl2021blaze-main\src\BlazingPizza\BlazingPizza.Client\_Imports.razor"
+#line 9 "c:\Users\George\Desktop\Workspace\vsl2021blaze-main\src\BlazingPizza\BlazingPizza.Client\_Imports.razor"
 using Microsoft.AspNetCore.Components.WebAssembly.Authentication;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 10 "C:\Users\George\Desktop\Workspace\vsl2021blaze-main\src\BlazingPizza\BlazingPizza.Client\_Imports.razor"
+#line 10 "c:\Users\George\Desktop\Workspace\vsl2021blaze-main\src\BlazingPizza\BlazingPizza.Client\_Imports.razor"
 using Microsoft.JSInterop;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 11 "C:\Users\George\Desktop\Workspace\vsl2021blaze-main\src\BlazingPizza\BlazingPizza.Client\_Imports.razor"
+#line 11 "c:\Users\George\Desktop\Workspace\vsl2021blaze-main\src\BlazingPizza\BlazingPizza.Client\_Imports.razor"
 using BlazingPizza.Client;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 12 "C:\Users\George\Desktop\Workspace\vsl2021blaze-main\src\BlazingPizza\BlazingPizza.Client\_Imports.razor"
+#line 12 "c:\Users\George\Desktop\Workspace\vsl2021blaze-main\src\BlazingPizza\BlazingPizza.Client\_Imports.razor"
 using BlazingPizza.Client.Shared;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 13 "C:\Users\George\Desktop\Workspace\vsl2021blaze-main\src\BlazingPizza\BlazingPizza.Client\_Imports.razor"
+#line 13 "c:\Users\George\Desktop\Workspace\vsl2021blaze-main\src\BlazingPizza\BlazingPizza.Client\_Imports.razor"
 using BlazingPizza.ComponentsLibrary;
 
 #line default
@@ -112,12 +112,54 @@ using BlazingPizza.ComponentsLibrary;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 22 "C:\Users\George\Desktop\Workspace\vsl2021blaze-main\src\BlazingPizza\BlazingPizza.Client\Pages\Index.razor"
+#line 55 "c:\Users\George\Desktop\Workspace\vsl2021blaze-main\src\BlazingPizza\BlazingPizza.Client\Pages\Index.razor"
        
     List<PizzaSpecial> specials;
+    Pizza configuringPizza;
+    bool showingConfigureDialog;
+    Order order = new Order();
+
+    void ShowConfigurePizzaDialog(PizzaSpecial special)
+    {
+        configuringPizza = new Pizza()
+        {
+            Special = special,
+            SpecialId = special.Id,
+            Size = Pizza.DefaultSize,
+            Toppings = new List<PizzaTopping>(),
+        };
+
+        showingConfigureDialog = true;
+    }
+
     protected override async Task OnInitializedAsync()
     {
         specials = await HttpClient.GetFromJsonAsync<List<PizzaSpecial>>("specials");
+    }
+
+    void CancelConfigurePizzaDialog()
+    {
+        configuringPizza = null;
+        showingConfigureDialog = false;
+    }
+
+    void ConfirmConfigurePizzaDialog()
+    {
+        order.Pizzas.Add(configuringPizza);
+        configuringPizza = null;
+
+        showingConfigureDialog = false;
+    }
+
+    void RemoveConfiguredPizza(Pizza pizza)
+    {
+        order.Pizzas.Remove(pizza);
+    }
+
+    async Task PlaceOrder()
+    {
+        await HttpClient.PostAsJsonAsync("orders", order);
+        order = new Order();
     }
 
 #line default
