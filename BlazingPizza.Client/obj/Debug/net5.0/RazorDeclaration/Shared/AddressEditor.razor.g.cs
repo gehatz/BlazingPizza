@@ -4,7 +4,7 @@
 #pragma warning disable 0649
 #pragma warning disable 0169
 
-namespace BlazingPizza.Client.Pages
+namespace BlazingPizza.Client.Shared
 {
     #line hidden
     using System;
@@ -103,8 +103,7 @@ using BlazingPizza.ComponentsLibrary;
 #line default
 #line hidden
 #nullable disable
-    [Microsoft.AspNetCore.Components.RouteAttribute("/")]
-    public partial class Index : Microsoft.AspNetCore.Components.ComponentBase
+    public partial class AddressEditor : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
@@ -112,22 +111,13 @@ using BlazingPizza.ComponentsLibrary;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 57 "C:\Users\George\Desktop\Workspace\vsl2021blaze-main\src\BlazingPizza\BlazingPizza.Client\Pages\Index.razor"
+#line 49 "C:\Users\George\Desktop\Workspace\vsl2021blaze-main\src\BlazingPizza\BlazingPizza.Client\Shared\AddressEditor.razor"
        
-    List<PizzaSpecial> specials;
-    Order order => OrderState.Order;
-
-    protected override async Task OnInitializedAsync()
-    {
-        specials = await HttpClient.GetFromJsonAsync<List<PizzaSpecial>>("specials");
-    }
+    [Parameter] public Address Address { get; set; }
 
 #line default
 #line hidden
 #nullable disable
-        [global::Microsoft.AspNetCore.Components.InjectAttribute] private NavigationManager NavigationManager { get; set; }
-        [global::Microsoft.AspNetCore.Components.InjectAttribute] private OrderState OrderState { get; set; }
-        [global::Microsoft.AspNetCore.Components.InjectAttribute] private HttpClient HttpClient { get; set; }
     }
 }
 #pragma warning restore 1591

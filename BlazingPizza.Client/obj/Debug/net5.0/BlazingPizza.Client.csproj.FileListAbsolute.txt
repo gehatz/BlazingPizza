@@ -646,3 +646,7 @@ C:\Users\George\Desktop\Workspace\vsl2021blaze-main\src\BlazingPizza\BlazingPizz
 C:\Users\George\Desktop\Workspace\vsl2021blaze-main\src\BlazingPizza\BlazingPizza.Client\obj\Debug\net5.0\Razor\Pages\OrderDetails.razor.g.cs
 C:\Users\George\Desktop\Workspace\vsl2021blaze-main\src\BlazingPizza\BlazingPizza.Client\obj\Debug\net5.0\RazorDeclaration\Shared\OrderReview.razor.g.cs
 C:\Users\George\Desktop\Workspace\vsl2021blaze-main\src\BlazingPizza\BlazingPizza.Client\obj\Debug\net5.0\Razor\Shared\OrderReview.razor.g.cs
+C:\Users\George\Desktop\Workspace\vsl2021blaze-main\src\BlazingPizza\BlazingPizza.Client\obj\Debug\net5.0\RazorDeclaration\Pages\Checkout.razor.g.cs
+C:\Users\George\Desktop\Workspace\vsl2021blaze-main\src\BlazingPizza\BlazingPizza.Client\obj\Debug\net5.0\Razor\Pages\Checkout.razor.g.cs
+C:\Users\George\Desktop\Workspace\vsl2021blaze-main\src\BlazingPizza\BlazingPizza.Client\obj\Debug\net5.0\RazorDeclaration\Shared\AddressEditor.razor.g.cs
+C:\Users\George\Desktop\Workspace\vsl2021blaze-main\src\BlazingPizza\BlazingPizza.Client\obj\Debug\net5.0\Razor\Shared\AddressEditor.razor.g.cs

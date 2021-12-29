@@ -41,77 +41,6 @@
         }
       },
       {
-        "HashCode": 1127742928,
-        "Kind": "Components.Component",
-        "Name": "BlazingPizza.Client.Shared.ConfiguredPizzaItem",
-        "AssemblyName": "BlazingPizza.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "ConfiguredPizzaItem"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Pizza",
-            "TypeName": "BlazingPizza.Pizza",
-            "Metadata": {
-              "Common.PropertyName": "Pizza"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "OnRemoved",
-            "TypeName": "Microsoft.AspNetCore.Components.EventCallback",
-            "Metadata": {
-              "Common.PropertyName": "OnRemoved",
-              "Components.EventCallback": "True"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazingPizza.Client.Shared.ConfiguredPizzaItem"
-        }
-      },
-      {
-        "HashCode": 925759379,
-        "Kind": "Components.Component",
-        "Name": "BlazingPizza.Client.Shared.ConfiguredPizzaItem",
-        "AssemblyName": "BlazingPizza.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "BlazingPizza.Client.Shared.ConfiguredPizzaItem"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Pizza",
-            "TypeName": "BlazingPizza.Pizza",
-            "Metadata": {
-              "Common.PropertyName": "Pizza"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "OnRemoved",
-            "TypeName": "Microsoft.AspNetCore.Components.EventCallback",
-            "Metadata": {
-              "Common.PropertyName": "OnRemoved",
-              "Components.EventCallback": "True"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazingPizza.Client.Shared.ConfiguredPizzaItem",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": 1951685057,
         "Kind": "Components.Component",
         "Name": "BlazingPizza.Client.Shared.ConfigurePizzaDialog",
@@ -350,6 +279,130 @@
         }
       },
       {
+        "HashCode": 1127742928,
+        "Kind": "Components.Component",
+        "Name": "BlazingPizza.Client.Shared.ConfiguredPizzaItem",
+        "AssemblyName": "BlazingPizza.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ConfiguredPizzaItem"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Pizza",
+            "TypeName": "BlazingPizza.Pizza",
+            "Metadata": {
+              "Common.PropertyName": "Pizza"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "OnRemoved",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback",
+            "Metadata": {
+              "Common.PropertyName": "OnRemoved",
+              "Components.EventCallback": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazingPizza.Client.Shared.ConfiguredPizzaItem"
+        }
+      },
+      {
+        "HashCode": 925759379,
+        "Kind": "Components.Component",
+        "Name": "BlazingPizza.Client.Shared.ConfiguredPizzaItem",
+        "AssemblyName": "BlazingPizza.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazingPizza.Client.Shared.ConfiguredPizzaItem"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Pizza",
+            "TypeName": "BlazingPizza.Pizza",
+            "Metadata": {
+              "Common.PropertyName": "Pizza"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "OnRemoved",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback",
+            "Metadata": {
+              "Common.PropertyName": "OnRemoved",
+              "Components.EventCallback": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazingPizza.Client.Shared.ConfiguredPizzaItem",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 845234620,
+        "Kind": "Components.Component",
+        "Name": "BlazingPizza.Client.Shared.AddressEditor",
+        "AssemblyName": "BlazingPizza.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "AddressEditor"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Address",
+            "TypeName": "BlazingPizza.Address",
+            "Metadata": {
+              "Common.PropertyName": "Address"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazingPizza.Client.Shared.AddressEditor"
+        }
+      },
+      {
+        "HashCode": 1051656303,
+        "Kind": "Components.Component",
+        "Name": "BlazingPizza.Client.Shared.AddressEditor",
+        "AssemblyName": "BlazingPizza.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazingPizza.Client.Shared.AddressEditor"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Address",
+            "TypeName": "BlazingPizza.Address",
+            "Metadata": {
+              "Common.PropertyName": "Address"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazingPizza.Client.Shared.AddressEditor",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": 1436814363,
         "Kind": "Components.Component",
         "Name": "BlazingPizza.Client.Pages.OrderDetails",
@@ -465,6 +518,39 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "BlazingPizza.Client.Pages.Index",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1117046416,
+        "Kind": "Components.Component",
+        "Name": "BlazingPizza.Client.Pages.Checkout",
+        "AssemblyName": "BlazingPizza.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Checkout"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazingPizza.Client.Pages.Checkout"
+        }
+      },
+      {
+        "HashCode": 774652180,
+        "Kind": "Components.Component",
+        "Name": "BlazingPizza.Client.Pages.Checkout",
+        "AssemblyName": "BlazingPizza.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazingPizza.Client.Pages.Checkout"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazingPizza.Client.Pages.Checkout",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -15513,8 +15599,18 @@
       "FileKind": "component"
     },
     {
+      "FilePath": "c:\\Users\\George\\Desktop\\Workspace\\vsl2021blaze-main\\src\\BlazingPizza\\BlazingPizza.Client\\Pages\\Checkout.razor",
+      "TargetPath": "Pages\\Checkout.razor",
+      "FileKind": "component"
+    },
+    {
       "FilePath": "c:\\Users\\George\\Desktop\\Workspace\\vsl2021blaze-main\\src\\BlazingPizza\\BlazingPizza.Client\\Pages\\Index.razor",
       "TargetPath": "Pages\\Index.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\George\\Desktop\\Workspace\\vsl2021blaze-main\\src\\BlazingPizza\\BlazingPizza.Client\\Shared\\AddressEditor.razor",
+      "TargetPath": "Shared\\AddressEditor.razor",
       "FileKind": "component"
     }
   ],

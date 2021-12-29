@@ -5745,35 +5745,55 @@
         }
       },
       {
-        "HashCode": 2105085859,
+        "HashCode": 845234620,
         "Kind": "Components.Component",
-        "Name": "BlazingPizza.Client.Pages.Index",
+        "Name": "BlazingPizza.Client.Shared.AddressEditor",
         "AssemblyName": "BlazingPizza.Client",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Index"
+            "TagName": "AddressEditor"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Address",
+            "TypeName": "BlazingPizza.Address",
+            "Metadata": {
+              "Common.PropertyName": "Address"
+            }
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazingPizza.Client.Pages.Index"
+          "Common.TypeName": "BlazingPizza.Client.Shared.AddressEditor"
         }
       },
       {
-        "HashCode": -363995460,
+        "HashCode": 1051656303,
         "Kind": "Components.Component",
-        "Name": "BlazingPizza.Client.Pages.Index",
+        "Name": "BlazingPizza.Client.Shared.AddressEditor",
         "AssemblyName": "BlazingPizza.Client",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "BlazingPizza.Client.Pages.Index"
+            "TagName": "BlazingPizza.Client.Shared.AddressEditor"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Address",
+            "TypeName": "BlazingPizza.Address",
+            "Metadata": {
+              "Common.PropertyName": "Address"
+            }
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazingPizza.Client.Pages.Index",
+          "Common.TypeName": "BlazingPizza.Client.Shared.AddressEditor",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -5860,6 +5880,72 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "BlazingPizza.Client.Pages.MyOrders",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 2105085859,
+        "Kind": "Components.Component",
+        "Name": "BlazingPizza.Client.Pages.Index",
+        "AssemblyName": "BlazingPizza.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazingPizza.Client.Pages.Index"
+        }
+      },
+      {
+        "HashCode": -363995460,
+        "Kind": "Components.Component",
+        "Name": "BlazingPizza.Client.Pages.Index",
+        "AssemblyName": "BlazingPizza.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazingPizza.Client.Pages.Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazingPizza.Client.Pages.Index",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1117046416,
+        "Kind": "Components.Component",
+        "Name": "BlazingPizza.Client.Pages.Checkout",
+        "AssemblyName": "BlazingPizza.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Checkout"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazingPizza.Client.Pages.Checkout"
+        }
+      },
+      {
+        "HashCode": 774652180,
+        "Kind": "Components.Component",
+        "Name": "BlazingPizza.Client.Pages.Checkout",
+        "AssemblyName": "BlazingPizza.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazingPizza.Client.Pages.Checkout"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazingPizza.Client.Pages.Checkout",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
